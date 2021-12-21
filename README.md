@@ -1,5 +1,8 @@
-# Test
+## objective
 
-###### First time i have a lot of trouble.
+To practice
 
-Bad test !
+- Git
+- Github
+- CSS grid
+- Responsive Design
