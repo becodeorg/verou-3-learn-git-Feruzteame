@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
 }
+body {
+  color: white;
+  font-family: cursive;
+}
 
 header {
   width: 100%;
   height: auto;
-  background-color: red;
+  background-color: #142f43;
   margin-bottom: 1%;
 }
 
@@ -19,11 +23,11 @@ section {
   display: grid;
   /* grid-template-columns: 65% 30%; */
   grid-auto-rows: 200px;
-  grid-gap: 1%;
+  grid-gap: 2%;
   margin-left: 1%;
 }
 article {
-  background-color: blue;
+  background-color: #66806a;
   padding: 1%;
 }
 .article-1 {
@@ -40,8 +44,9 @@ article {
 .a4,
 .a5,
 .a6 {
-  background-color: chocolate;
+  background-color: #142f43;
   margin-left: 10%;
+  border-radius: 5px;
 }
 .article-2 {
   grid-column: 1/2;
@@ -52,16 +57,18 @@ article {
   grid-auto-rows: 100px;
   padding: 5%;
 }
-.article-2 .c1,
+
+.c1,
 .c2,
 .c3 {
-  background-color: wheat;
+  background-color: #142f43;
   padding: 2%;
   margin-top: 10%;
+  border-radius: 5px;
 }
 
 aside {
-  background-color: chartreuse;
+  background-color: #66806a;
   padding: 1%;
 }
 .aside-1 {
@@ -76,9 +83,10 @@ aside {
 .b1,
 .b2,
 .b3 {
-  background-color: yellowgreen;
+  background-color: #142f43;
   margin-left: 35%;
   margin-top: 10%;
+  border-radius: 5px;
 }
 .aside-2 {
   grid-column: 2/3;
@@ -91,14 +99,15 @@ aside {
 
 .d1,
 .d2 {
-  background-color: rgb(255, 0, 170);
+  background-color: #142f43;
   margin-left: 10%;
+  border-radius: 5px;
 }
 
 footer {
   width: 100%;
   height: auto;
-  background-color: red;
+  background-color: #142f43;
   margin-top: 3%;
   padding: 1%;
 }
